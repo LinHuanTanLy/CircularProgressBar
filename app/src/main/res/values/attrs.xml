@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="circular">
+        <!--默认弧度的颜色-->
+        <attr name="defColor" format="color"/>
+        <!--进度条颜色-->
+        <attr name="progressColor" format="color"/>
+        <!--暂停杠杠的颜色-->
+        <attr name="tabColor" format="color"/>
+        <!--字体颜色-->
+        <attr name="fontColor" format="color"/>
+        <!--提示文字-->
+        <attr name="tipsStr" format="string"/>
+        <!--进度完成后的提示文字-->
+        <attr name="finishStr" format="string"/>
+        <!--字体大小-->
+        <attr name="fontSize" format="dimension"/>
+        <!--圆角矩形的宽度-->
+        <attr name="rectWidth" format="dimension"/>
+        <!--进度条宽度-->
+        <attr name="progressWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
